@@ -1,5 +1,7 @@
 ---
 import Header from '../components/Header.astro';
+import AboutMe from '../components/AboutMe.astro';
+import SkillsContainer from '../components/SkillsContainer/SkillsContainer';
 interface Props {
     title: string;
 }
@@ -19,6 +21,8 @@ const { title } = Astro.props;
     </head>
     <body>
         <Header />
+        <AboutMe />
+        <SkillsContainer client:load />
         <slot />
     </body>
 </html>
