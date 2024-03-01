@@ -1,19 +1,19 @@
 ---
-import Navbar from './Navbar/Navbar.jsx';
-import Home from './Home.astro';
+import Navbar from './Navbar/Navbar.jsx'
+import Home from './Home.astro'
 ---
 
 <header class="header">
-    <Navbar client:visible />
-    <Home />
+	<Navbar client:visible />
+	<Home />
 </header>
 
 <style>
-    .header {
-        background-image: url(/images/background/BgHome.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
+	.header {
+		background-image: url(/images/background/BgHome.png);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+	}
 </style>
