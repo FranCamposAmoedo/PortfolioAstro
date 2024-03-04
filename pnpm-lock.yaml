@@ -11,6 +11,9 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.4.5)(tailwindcss@3.4.1)
+  '@emailjs/browser':
+    specifier: ^4.2.0
+    version: 4.2.0
   '@types/react':
     specifier: ^18.2.60
     version: 18.2.60
@@ -20,6 +23,9 @@ dependencies:
   astro:
     specifier: ^4.4.5
     version: 4.4.5
+  emailjs-com:
+    specifier: ^3.2.0
+    version: 3.2.0
   firebase:
     specifier: ^10.8.0
     version: 10.8.0
@@ -35,6 +41,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  sweetalert2:
+    specifier: ^11.10.5
+    version: 11.10.5
   tailwindcss:
     specifier: ^3.4.1
     version: 3.4.1
@@ -396,6 +405,11 @@ packages:
       '@babel/helper-string-parser': 7.23.4
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
+    dev: false
+
+  /@emailjs/browser@4.2.0:
+    resolution: {integrity: sha512-f1uOhThjn7tBX78rjpnkxEQhtEsMk05ZzU8LuqlJ41pT705fnJ77oMzKYXU3+X75EytlRKseHTLjtsy8oKTMEw==}
+    engines: {node: '>=14.0.0'}
     dev: false
 
   /@esbuild/android-arm64@0.19.9:
@@ -2285,6 +2299,12 @@ packages:
 
   /electron-to-chromium@1.4.612:
     resolution: {integrity: sha512-dM8BMtXtlH237ecSMnYdYuCkib2QHq0kpWfUnavjdYsyr/6OsAwg5ZGUfnQ9KD1Ga4QgB2sqXlB2NT8zy2GnVg==}
+    dev: false
+
+  /emailjs-com@3.2.0:
+    resolution: {integrity: sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA==}
+    engines: {node: '>=12.0.0'}
+    deprecated: The SDK name changed to @emailjs/browser
     dev: false
 
   /emoji-regex@10.3.0:
@@ -4823,6 +4843,10 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: false
+
+  /sweetalert2@11.10.5:
+    resolution: {integrity: sha512-q9eE3EKhMcpIDU/Xcz7z5lk8axCGkgxwK47gXGrrfncnBJWxHPPHnBVAjfsVXcTt8Yi8U6HNEcBRSu+qGeyFdA==}
     dev: false
 
   /tailwindcss@3.4.1:
