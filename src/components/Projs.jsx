@@ -15,10 +15,16 @@ const Projs = ({ img, title, web, gh, text }) => {
                 <p className="hyphens-auto sm:hyphens-none text-sm sm:text-base">
                     {text}
                 </p>
-                <div className="flex justify-around mt-6 flex-wrap">
-                    <Btn name="Página" path={web} />
-                    <Btn name="Repositorio" path={gh} />
-                </div>
+                {gh ?
+                    <div className="flex justify-around mt-6 flex-wrap">
+                        <Btn name="Página" path={web} />
+                        <Btn name="Repositorio" path={gh} />
+                    </div> :
+                    <div className="flex justify-center mt-6 flex-wrap">
+                        <Btn name="Página" path={web} />
+                    </div>
+                }
+
             </div>
         </div>
     );

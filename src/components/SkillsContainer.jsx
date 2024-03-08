@@ -1,7 +1,7 @@
-import SkillList from '../SkillList/SkillList';
+import SkillList from './SkillList';
 import { useState, useEffect } from 'react';
 import { getDocs, collection } from 'firebase/firestore';
-import { firestoreDb } from '../../firebase/client';
+import { firestoreDb } from '../firebase/client';
 
 const SkillsContainer = () => {
 
