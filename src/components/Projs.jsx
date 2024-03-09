@@ -5,7 +5,7 @@ import { aosInit } from '../Aos.jsx'
 const Projs = ({ img, title, web, gh, text }) => {
     aosInit()
     return (
-        <div data-aos="zoom-out" className="flex flex-col items-center lg:my-8 container">
+        <div data-aos="fade-up" className="flex flex-col items-center lg:my-8 container">
             <a className="inline-block max-w-[60%] grayscale transition-all duration-500 hover:grayscale-0 hover:scale-105" href={web} target="_blank" rel="noreferrer">
                 <img className="inline-block max-w-full rounded-3xl drop-shadow-lg "
                     src={img}
