@@ -2,7 +2,7 @@ import './SpinnerLoader.css';
 import ProjectsList from './ProjectsList';
 import { useState, useEffect } from 'react';
 import { getDocs, collection } from 'firebase/firestore';
-import { firestoreDb } from '../firebase/client'
+import { firestoreDb } from '../firebase/client';
 
 const ProjectsContainer = () => {
 
@@ -24,7 +24,8 @@ const ProjectsContainer = () => {
             {projects.length > 0 ?
                 <div>
                     <ProjectsList projects={projects} />
-                </div> :
+                </div>
+                :
                 <div className='text-center p-20'>
                     <span className="loader"></span>
                 </div>

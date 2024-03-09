@@ -29,9 +29,8 @@ const SkillsContainer = () => {
                             <span className="loader"></span>
                         </div>
                     }
-
                 </div>
-                <img className="mx-auto w-9/12 lg:w-2/5" src="../images/pictures/Developer.png" alt="" />
+                <img className="mx-auto w-9/12 lg:w-2/5" src="../images/pictures/Developer.png" alt="Developer" />
             </div>
         </div>
     )

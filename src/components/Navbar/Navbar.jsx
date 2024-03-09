@@ -66,7 +66,7 @@ const Navbar = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <img src="../images/icons/LinkedIn.png" alt="" />
+                        <img src="../images/icons/LinkedIn.png" alt="LinkedIn" />
                     </a>
                     <a
                         className="social"
@@ -74,7 +74,7 @@ const Navbar = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <img src="../images/icons/GitHub1.png" alt="" />
+                        <img src="../images/icons/GitHub1.png" alt="GitHub" />
                     </a>
                 </div>
                 <div className="burger-container">

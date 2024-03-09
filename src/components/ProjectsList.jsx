@@ -1,6 +1,7 @@
 import Projs from "./Projs";
 
 const ProjectsList = ({ projects }) => {
+
     return (
         <div className="flex flex-col">
             {projects.map((project) => (
