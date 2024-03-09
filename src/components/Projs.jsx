@@ -26,7 +26,6 @@ const Projs = ({ img, title, web, gh, text }) => {
                         <Btn name="Página" path={web} />
                     </div>
                 }
-
             </div>
         </div>
     );

@@ -20,7 +20,7 @@ const ProjectsContainer = () => {
     return (
         <div className="container mx-auto text-neutral-600">
             <h2 className="text-4xl pt-16 text-center md:text-6xl font-normal">Proyectos</h2>
-            <hr className="mx-auto mb-0 mt-12 h-2 w-24 bg-[color:var(--main-color)]" />
+            <hr className="mx-auto mb-6 mt-6 sm:mt-12 h-2 w-24 bg-[color:var(--main-color)]" />
             {projects.length > 0 ?
                 <div>
                     <ProjectsList projects={projects} />

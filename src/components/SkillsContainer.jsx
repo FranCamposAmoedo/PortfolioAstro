@@ -20,7 +20,7 @@ const SkillsContainer = () => {
     return (
         <div className="container mx-auto pb-8 text-neutral-600">
             <h2 className="text-4xl pt-16 text-center md:text-6xl font-normal">Habilidades</h2>
-            <hr className="mx-auto mb-0 mt-12 h-2 w-24 bg-[color:var(--main-color)]" />
+            <hr className="mx-auto mb-0 mt-6 sm:mt-12 h-2 w-24 bg-[color:var(--main-color)]" />
             <div className="p-8 flex flex-wrap flex-col-reverse lg:flex-row lg:flex-nowrap justify-between items-center m-0">
                 <div className="px-8 m-12 mx-auto lg:w-2/5">
                     {skills.length > 0 ?
